@@ -1,7 +1,6 @@
 # 🔤 Morse-Decoder-CLI-Lab 🧠
 
 A Python-based **Morse Code Command Line Tool** that allows you to **convert text into International Morse Code and decode Morse code back into readable text.**
-
 This project is designed as a **learning lab** to improve:
 - Encoding & decoding logic
 - Pattern recognition
@@ -139,7 +138,6 @@ HELLO WORLD
 - Output is space-separated Morse code
 
 ## 3️⃣ Decoding
-
 - Morse input is split by spaces
 - Reverse dictionary lookup converts Morse back to text
 - `/` is translated back into a space
@@ -173,7 +171,8 @@ For a **combined and advanced implementation** involving:
 - Encrypted payload embedding
 
 please refer to:
-🔗 **[StegaVault-CLI](https://github.com/ShakalBhau0001/StegaVault-CLI) (WIP)**
+
+> 🔗 **[StegaVault-CLI](https://github.com/ShakalBhau0001/StegaVault-CLI) (WIP)**
 
 ---
 
