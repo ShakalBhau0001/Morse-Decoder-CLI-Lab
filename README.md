@@ -16,8 +16,11 @@ It is especially useful for **puzzle solving**, **CTF-style thinking**, and **fo
 ```bash
 Morse-Decoder-CLI-Lab/
 │
-├── morse_decoder.py        # Main CLI application
-└── README.md               # Project documentation
+├── assets/             # Screenshots
+├── main.py             # Basic CLI application
+├── interactive.py      # Rich CLI Version
+├── requirements.txt    # Project Dependancies
+└── README.md           # Project documentation
 ```
 
 ---
@@ -39,6 +42,18 @@ Morse-Decoder-CLI-Lab/
 - Easy-to-read conversion logic
 - Ideal for experimentation and extension
 
+### 🎨 Rich CLI Interface
+- Colored terminal output
+- Structured key display tables
+- Styled panels for encoding/decoding results
+- Better user experience and readability
+
+### ⚡ Dual Mode Support
+
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
+
+
 ---
 
 #### 🛠 Technologies Used
@@ -48,8 +63,8 @@ Morse-Decoder-CLI-Lab/
 | **Python 3**                     | Core programming language |
 | **Dictionary Mapping**           | Morse ↔ Text conversion   |
 | **CLI (Command Line Interface)** | User interaction          |
+| **Rich**                         | Interactive CLI interface |
 
-> No external libraries are required.
 
 ---
 
@@ -77,10 +92,30 @@ git clone https://github.com/ShakalBhau0001/Morse-Decoder-CLI-Lab.git
 cd Morse-Decoder-CLI-Lab
 ```
 
-## 3️⃣ Run the CLI tool
+### 3️⃣ Install Dependencies
 
 ```bash
-python morse_decoder.py
+pip install rich
+```
+
+**OR**
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4️⃣ Running the Project
+
+#### Basic CLI Version
+
+```bash
+python main.py
+```
+
+#### Rich Interactive Version
+
+```bash
+python interactive.py
 ```
 
 ## ▶️ Usage
@@ -92,6 +127,8 @@ After running the program, you will see:
 --------------------
 1. Text → Morse
 2. Morse → Text
+3. Exit
+--------------------
 ```
 
 ## 🔐 Text → Morse Example
@@ -182,6 +219,12 @@ This project is intended for **educational and learning purposes only**.
 
 Morse code is **not encryption** and should not be used for secure communication.
 The goal is to improve **analytical thinking**, **decoding skills**, and **tool-building fundamentals**.
+
+---
+
+## 📸 Preview
+
+![Rich CLI Preview](assets/Morse.png)
 
 ---
 
