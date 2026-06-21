@@ -63,7 +63,6 @@ MORSE_CODE = {
 
 # Conversion Of Text Message Into Morse Code
 
-
 def text_to_morse(text):
     text = text.upper()
     morse_output = []
@@ -79,7 +78,6 @@ def text_to_morse(text):
 
 
 # Conversion Of Morse Code Into Text Message
-
 
 def morse_to_text(morse):
     reverse_morse = {value: key for key, value in MORSE_CODE.items()}
@@ -99,24 +97,25 @@ def main():
     print("--------------------")
     print("1. Text → Morse")
     print("2. Morse → Text")
+    print("3. Exit")
+    print("--------------------")
 
-    choice = input("Choose (1 or 2): ").strip()
+    choice = input("Choose (1 , 2 or 3): ").strip()
 
     if choice == "1":
         text = input("Enter text: ")
         morse = text_to_morse(text)
         print("\n🔐 Morse Code:")
         print(morse)
-
     elif choice == "2":
         morse = input("Enter Morse code (space separated, / for space): ")
         text = morse_to_text(morse)
         print("\n🔓 Decoded Text:")
         print(text)
-
+    elif choice == "3":
+        print("❌ Exiting... See You Soon!")
     else:
-        print("❌ Invalid choice")
-
+        print("⚠️ Invalid choice, please try again.")
 
 if __name__ == "__main__":
     main()
