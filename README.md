@@ -11,7 +11,7 @@ It is especially useful for **puzzle solving**, **CTF-style thinking**, and **fo
 
 ---
 
-#### 🧱 Project Structure
+## 🧱 Project Structure
 
 ```bash
 Morse-Decoder-CLI-Lab/
@@ -25,19 +25,19 @@ Morse-Decoder-CLI-Lab/
 
 ---
 
-#### ✨ Features
+## ✨ Features
 
-## 🔐 Text → Morse Conversion
+### 🔐 Text → Morse Conversion
 - Converts **letters**, **numbers**, and **punctuation** into **International Morse Code**
 - Uses standard dot (`.`) and dash (`-`) notation
 - Represents word gaps using `/`
 
-## 🔓 Morse → Text Decoding
+### 🔓 Morse → Text Decoding
 - Decodes space-separated Morse code
 - Converts / back into spaces
 - Ignores unsupported or invalid sequences safely
 
-## 🧪 Learning-Oriented Design
+### 🧪 Learning-Oriented Design
 - Clean dictionary-based mapping
 - Easy-to-read conversion logic
 - Ideal for experimentation and extension
@@ -49,14 +49,13 @@ Morse-Decoder-CLI-Lab/
 - Better user experience and readability
 
 ### ⚡ Dual Mode Support
-
 - 🧼 Basic CLI → Lightweight, no dependencies
 - 🎨 Rich CLI → Enhanced UI with colors and panels
 
 
 ---
 
-#### 🛠 Technologies Used
+## 🛠 Technologies Used
 
 | Technology                       | Role                      |
 | -------------------------------- | ------------------------- |
@@ -68,25 +67,15 @@ Morse-Decoder-CLI-Lab/
 
 ---
 
-#### 📌 Requirements
+## ▶️ How to Run
 
-```bash
-Python 3.7+
-```
-
-This tool uses **only standard Python libraries**.
-
----
-
-#### ▶️ How to Run
-
-## 1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/ShakalBhau0001/Morse-Decoder-CLI-Lab.git
 ```
 
-## 2️⃣ Enter the project directory
+### 2️⃣ Enter the project directory
 
 ```bash
 cd Morse-Decoder-CLI-Lab
@@ -161,27 +150,27 @@ HELLO WORLD
 
 ---
 
-#### ⚙️ How It Works
+## ⚙️ How It Works
 
-## 1️⃣ Morse Mapping
+### 1️⃣ Morse Mapping
 - A dictionary maps characters to Morse symbols:
   ```python
   "A": ".-", "B": "-...", "C": "-.-."
   ```
 
-## 2️⃣ Encoding
+### 2️⃣ Encoding
 - Input text is converted to uppercase
 - Each character is replaced by its Morse equivalent
 - Output is space-separated Morse code
 
-## 3️⃣ Decoding
+### 3️⃣ Decoding
 - Morse input is split by spaces
 - Reverse dictionary lookup converts Morse back to text
 - `/` is translated back into a space
 
 ---
 
-#### ⚠️ Limitations
+## ⚠️ Limitations
 - Morse input **must be space-separated**
 - Continuous Morse without spacing is **ambiguous**
 - This tool does **not brute-force spacing**
@@ -189,7 +178,7 @@ HELLO WORLD
 
 ---
 
-#### 🌟 Future Enhancements
+## 🌟 Future Enhancements
 - Auto-spacing / brute-force decoding
 - Support for continuous Morse (no spaces)
 - File-based input/output
@@ -198,7 +187,7 @@ HELLO WORLD
 
 ---
 
-#### 📦 Extended / Combined Tools
+## 📦 Extended / Combined Tools
 
 This repository focuses **only on Morse code encoding & decoding** as a **logic-building CLI lab**.
 
@@ -213,7 +202,7 @@ please refer to:
 
 ---
 
-#### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended for **educational and learning purposes only**.
 
@@ -228,7 +217,7 @@ The goal is to improve **analytical thinking**, **decoding skills**, and **tool-
 
 ---
 
-#### 🪪 Author
+## 🪪 Author
 
 > **Creator: Shakal Bhau**
 
