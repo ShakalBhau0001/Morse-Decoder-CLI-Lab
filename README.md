@@ -213,7 +213,7 @@ The goal is to improve **analytical thinking**, **decoding skills**, and **tool-
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/Morse.png)
+![Rich CLI Preview](assets/MORSE.png)
 
 ---
 
